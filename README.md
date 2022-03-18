@@ -114,6 +114,9 @@ http://localhost:8080
 ### Execute the below command to run the Tomcat container with required port mappings.  
 `sudo docker run -d --name=tomcat -p 8081:8080 --network=my-bridge-network tomcat:9.0`
 
+### Now access Tomcat from the port 8081
+http://localhost:8081
+
 
 ***
 ## Install SonarQube
@@ -195,6 +198,9 @@ volumes:
   Then Up the Sonarqube service using below command.
 
   `docker-compose up sonarqube .`
+
+  ### Now access Sonarqube from the port 9000
+http://localhost:9000
   
 
 
