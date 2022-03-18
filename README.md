@@ -71,6 +71,11 @@ select SQL DB as SQLLITE and then install
 Register as new user
 Login to the GOGS
 
+### Clone any desired Java Spring-Boot application from GitHub to Gogs environment.
+
+If there is no specific projects to test then use the below repository and clone the same to Gogs
+
+https://github.com/hellokoding/hellokoding-courses/tree/master/springboot-examples/springboot-jsp-helloworld
 
 
 
